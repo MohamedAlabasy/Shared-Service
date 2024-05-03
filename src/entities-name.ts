@@ -1,2 +1,2 @@
 export const USERS = 'users'
-export const SCHOOL = 'schools'
+export const SCHOOLS = 'schools'
