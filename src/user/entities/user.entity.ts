@@ -1,6 +1,6 @@
 import { Prop, Schema, SchemaFactory } from '@nestjs/mongoose';
 import { HydratedDocument, Types } from 'mongoose';
-import { School } from '../../entities-name';
+import { SCHOOLS } from '../../entities-name';
 
 
 @Schema({ strict: true, timestamps: true })
@@ -14,7 +14,7 @@ export class User {
     @Prop({ type: String })
     address: string;
 
-    @Prop({ type: Types.ObjectId, ref: School })
+    @Prop({ type: Types.ObjectId, ref: SCHOOLS })
     school_id: Types.ObjectId
 }
 
