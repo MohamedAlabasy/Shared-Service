@@ -61,7 +61,7 @@ package.json
 package-lock.json
 
 # outhers
-.eslintrc
+.eslintrc.js
 .prettierrc
 nest-cli.json
 tsconfig.json
